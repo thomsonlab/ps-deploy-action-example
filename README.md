@@ -32,3 +32,5 @@ The items in the template scripts that would need to change for each user are:
     - image name (line 33) of the desired repository in the container registry (e.g. Docker Hub) being used (i.e. thomsonlab/fastapi-resnet)
     - projectId (line 41) of the user's project in Paperspace (i.e. p5rlnw4tcga)
     - image name (line 42) that matches the image name on line 33 (i.e. thomsonlab/fastapi-resnet)
+
+
