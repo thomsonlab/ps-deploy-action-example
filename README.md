@@ -29,6 +29,6 @@ The items in the template scripts that would need to change for each user are:
 - .github/workflows/workflow.yaml
     - tag name (line 5) to match the tag name set in fixture-release-drafter.yaml (i.e. ps-deploy-action-example@*)
     - tag name (line 15) to match tag name on line 5 (i.e. ps-deploy-action-example@)
-    - image name (line 33) of the desired repository in the container registry (e.g. Docker Hub) being used (i.e. joshuapaperspace/fastapi-resnet)
+    - image name (line 33) of the desired repository in the container registry (e.g. Docker Hub) being used (i.e. thomsonlab/fastapi-resnet)
     - projectId (line 41) of the user's project in Paperspace (i.e. p5rlnw4tcga)
-    - image name (line 42) that matches the image name on line 33 (i.e. joshuapaperspace/fastapi-resnet)
+    - image name (line 42) that matches the image name on line 33 (i.e. thomsonlab/fastapi-resnet)
